@@ -1,0 +1,14 @@
+type: 'tool'
+language: 'typescript'
+
+tags: ['vite', 'vitest']
+
+tasks:
+  generate:
+    command:
+  build:
+    command: "vite dev"
+    inputs:
+      - "src/**/*"
+    outputs:
+      - "dist"

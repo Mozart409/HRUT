@@ -1,0 +1,16 @@
+node:
+  version: "20"
+  packageManager: "pnpm"
+  addEnginesConstraint: true
+  dedupeOnLockfileChange: true
+  pnpm:
+    version: "8.15.1"
+
+rust:
+  version: '1.76.0'
+  components:
+    - 'rust-docs'
+    - 'rust-analyzer'
+  bins:
+    - bin: "cargo-watch@8.5.2"
+      local: true

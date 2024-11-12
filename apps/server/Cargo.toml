@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tonic = {version = "0.11.0", features = ["gzip"]}
+tonic = {version = "0.12.3", features = ["gzip"]}
 tokio = { version = "1.36.0", features = ["full"]}
 prost = "0.12.3"
 tracing = "0.1.40"
